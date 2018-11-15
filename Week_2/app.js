@@ -1,6 +1,6 @@
 function college(students) {
     for (var i in students) {
-        document.writeln(students[i].Roll_no + "  " + students[i].Name + "  " + students[i].Marks);
+        document.writeln(students[i].Roll_no + "  " + students[i].Name + "  " + students[i].Marks + '<br/>');
         console.log(students[i].Roll_no + "  " + students[i].Name + "  " + students[i].Marks);
     }
 }
